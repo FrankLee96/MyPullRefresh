@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#006064">
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/refresh_arrow_image"
+        android:src="@drawable/refresh_arrow_img"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="65dp"
+        android:layout_width="30dp"
+        android:layout_height="20dp" />
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/wait_circuit_image"
+        android:src="@drawable/wait_circuit_img"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="65dp"
+        android:layout_width="30dp"
+        android:layout_height="20dp" />
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/refresh_success_image"
+        android:src="@drawable/refresh_success_img"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="65dp"
+        android:layout_width="30dp"
+        android:layout_height="20dp" />
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/refresh_failure_image"
+        android:src="@drawable/refresh_failure_img"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="65dp"
+        android:layout_width="30dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/pull_to_refresh_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:paddingTop="50dp"
+        android:text="下拉刷新"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+</RelativeLayout>
